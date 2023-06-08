@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import React, { createContext, useContext, useState } from 'react';
+import  {  useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FiAlignJustify } from "react-icons/fi";
 import { ImCross } from "react-icons/im";
@@ -20,7 +20,7 @@ export default function Header(){
                     <Link to='/'>  </Link>
                 </div>
                 <div>
-                    <Link to='/'> <h4 className='text-white text-xl font-bold'>Daily <br /> Task</h4></Link>
+                    <Link to='/'> <h4 className='text-white text-xl font-bold'>Ecomerce <br /> Products</h4></Link>
                 </div>
             </div>
 

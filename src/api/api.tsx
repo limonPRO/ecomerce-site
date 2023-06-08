@@ -12,11 +12,3 @@ export const get = async (endpoint: string) => {
 export const post = async (endpoint: string, data:any  ) => {
     return await apiClient.post(endpoint, data)
 };
-
-export const patch = async (endpoint: string, data:any  ) => {
-    return await apiClient.patch(endpoint, data)
-};
-
-export const deleteApi = async (endpoint: string) => {
-    return await apiClient.delete(endpoint)
-};

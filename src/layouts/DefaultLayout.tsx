@@ -21,7 +21,9 @@ const DefaultLayout = ({ children }: any) => {
         })}
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <div>
       <Footer />
+      </div>
     </div>
   );
 };
